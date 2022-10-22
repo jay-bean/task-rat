@@ -1,0 +1,73 @@
+/* #edit-form-container {
+    position: fixed;
+    transform: translate(-50%, 0);
+    z-index: 2;
+    max-width: 500px;
+    min-height: 300px;
+    bottom: 50%;
+    left: 50%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.background-blocker {
+    position: fixed;
+    z-index: 1;
+    transform: translate(-50%, 0);
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+} */
+
+/* #taskFormSubmitButton {
+    margin-bottom: 10px;
+} */
+
+#edit-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: flex-start;
+    overflow: auto;
+}
+
+#edit-form-container::-webkit-scrollbar {
+    display: none;
+}
+
+#edit-form-container .edit-task-form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.edit-task-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.edit-task-form-input {
+    background-color: #1c381b;
+    color: #14f217;
+    border-radius: 15px;
+    width: 200px;
+}
+
+#edit-task-form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-review-form-input {
+  background-color: #1c381b;
+  color: #14f217;
+  border-radius: 15px;
+}
+
+.skills-needed {
+  font-size: 23px;
+}

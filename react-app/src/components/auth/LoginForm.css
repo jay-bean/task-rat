@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+#login-form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%
+}
+
+#login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+
+#login-buttons-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.login-buttons button {
+  background-color: transparent;
+  color: #14f217;
+  border: none;
+  font-family: monospace;
+  font-size: 20px;
+  width: 135px;
+  height: 50px;
+}
+
+.login-buttons button:hover {
+  background-color: #14f217;
+  color: #1c381b;
+}
+
+#login-form-btn {
+  background-color: transparent;
+  color: #14f217;
+  border: none;
+  font-family: monospace;
+  font-size: 20px;
+  width: fit-content;
+  height: 50px;
+}
+
+#login-form-btn:hover {
+  background-color: #14f217;
+  color: #1c381b;
+}
+
+.login-form-inputs {
+  /* background-color: #1c381b; */
+  /* color: #14f217;
+  border-radius: 15px; */
+  background-color: transparent;
+  border: none;
+  caret-color: #14f217;
+  color:#14f217;
+  font-size: 25px;
+  width: 100%;
+  font-family: monospace;
+}
+
+.login-form-inputs:focus {
+  outline: none;
+}
+
+/* .login-form-inputs:autofill {
+  background-color: transparent;
+  border: none;
+  caret-color: #14f217;
+  color:#14f217;
+  font-size: 25px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+} */
+
+#handle-signup-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100%;
+  margin-top: 5px;
+  /* font-family: monospace; */
+}
+
+#handle-signup-btn button {
+  /* background-color: #1c381b; */
+  background-color: transparent;
+
+  color: #14f217;
+  /* border-radius: 15px; */
+  /* border: #14f217 1px solid; */
+  border: none;
+  font-family: monospace;
+  font-size: 20px;
+  width: fit-content;
+  height: 50px;
+  /* margin: 5px; */
+  align-self: center;
+  /* padding: 15px; */
+}
+
+#handle-signup-btn button:hover {
+  background-color: #14f217;
+  color: #1c381b;
+}
+
+#handle-signup-btn div {
+  color:#14f217;
+  width: 100%;
+}
+
+#handle-signup-btn div > h3 {
+  margin: 5px;
+}
+
+.login-form-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-input-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  /* margin-top: 25px; */
+}
+
+.login-form-input-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.login-form-input-container div > label {
+  margin-right: 10px;
+}
+
+.login-form-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 80%;
+  /* font-family: monospace; */
+}
+
+/* #demo-user-btn {
+  font-family: monospace;
+  font-size: 20px;
+} */

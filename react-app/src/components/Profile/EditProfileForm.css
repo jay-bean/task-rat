@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#edit-form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%
+}
+
+#edit-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#textarea {
+  resize: none;
+  overflow-y: scroll;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#edit-review-button {
+  background-color: #1c381b;
+  color: #14f217;
+  border-radius: 15px;
+  border: #14f217 1px solid;
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.edit-form-inputs {
+  background-color: #1c381b;
+  color: #14f217;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  border: #14f217 1px solid;
+  padding: 4px;
+  font-size: 14px;
+}
+
+#confirm-changes-button {
+  background-color: #1c381b;
+  color: #14f217;
+  border-radius: 99999px;
+  border: #14f217 1px solid;
+  width: 150px;
+  height: 45px;
+}
+
+.profile-edit-section {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.profile-edit-form {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.input-label-divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#textarea-bio {
+  resize: none;
+  overflow-y: scroll;
+  font-weight: 400;
+}
