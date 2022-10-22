@@ -73,6 +73,7 @@
    ```
 8. If browser does not open right away, navigate to localhost:3000 and enjoy!
 
+
 ## Meet the Pack Rats!
 ### *Taskrat made possible by these four nerds:*
 #### [Irving Arreola Palacios](https://github.com/Irving-Develops)
