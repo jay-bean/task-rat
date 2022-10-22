@@ -40,7 +40,7 @@
 
 3. Create a **.env** file based on the example with proper settings for your
    development environment
-   
+
 4. Setup your PostgreSQL user, password and database and make sure it matches your **.env** file
 
 5. Get into your pipenv, migrate your database, seed your database, and run your flask app
@@ -67,11 +67,12 @@
       ```bash
    npm install
    ```
-   
+
       ```bash
    npm start
    ```
 8. If browser does not open right away, navigate to localhost:3000 and enjoy!
+
 
 ## Meet the Pack Rats!
 ### *Taskrat made possible by these four nerds:*
